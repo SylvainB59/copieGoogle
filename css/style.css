@@ -1,12 +1,14 @@
+
+body {
+  height: 100%;
+}
+
+
 /* --------------- HEADER --------------- */
 header {
   margin-top: 10px;
-  float: right;
-  /*border-style: solid;*/
-}
-
-h1 {
-  visibility: hidden;
+  text-align: right;
+  border-color: grey;
 }
 
 .headerLink {
@@ -39,3 +41,58 @@ h1 {
   text-decoration: none;
 }
 /* --------------- FIN DE HEADER --------------- */
+
+/* --------------- SECTION --------------- */
+section {
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img {
+  width: 25em;
+  margin: 50px 0 25px 0;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  padding: 0 20px;
+  border-style: none;
+  box-shadow: 1px 1px 4px #aaa;
+  margin-bottom: 30px;
+}
+
+input:hover {
+  box-shadow: 1px 1px 8px #aaa;
+}
+
+.boutonRech{
+  text-align: center;
+}
+
+.bouton2 {
+  width: 150px;
+  height: 30px;
+  font:bold 13px Arial;
+  color: grey;
+  text-align: center;
+  padding-top: 6px;
+  margin: 0 10px;
+	background: #F0F0F0;
+	border-radius:2px;
+  display: inline-block;
+}
+
+.bouton2:hover {
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+  color: black;
+}
+/* --------------- END OF SECTION --------------- */
+
+/* --------------- FOOTER --------------- */
